@@ -37,7 +37,8 @@
       position: relative;
       z-index: 1; /* Position the content above the video background */
       text-align: center;
-      padding-top: 100px;
+      top: 50%; /* Adjust the top value to center the content vertically */
+      transform: translateY(-50%); /* Shift the content up by half its height to center it */
     }
 
     /* Style the span element */
@@ -59,6 +60,7 @@
 
   <!-- Content displayed over the video background -->
   <div class="content">
+    <img src="Logo-500x500-transp.png" alt="Logo" />
     <span>Universe Becoming</span>
   </div>
 </body>
