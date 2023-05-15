@@ -37,8 +37,8 @@
       position: relative;
       z-index: 1; /* Position the content above the video background */
       text-align: center;
-      top: 50%; /* Adjust the top value to center the content vertically */
-      transform: translateY(-50%); /* Shift the content up by half its height to center it */
+      top: 40%; /* Adjust the top value to move the content up */
+      transform: translateY(-40%); /* Shift the content up by its new height to center it */
     }
 
     /* Style the span element */
@@ -51,6 +51,16 @@
     .content img {
       display: block; /* Make the image a block element */
       margin: 0 auto; /* Auto margins on the sides will center the image */
+    }
+
+    /* Style the anchor element */
+    .content a {
+      display: block; /* Make the anchor a block element */
+      font-family: "Avenida Std Regular", sans-serif;
+      font-size: 2em; /* Adjust the font size as needed */
+      color: #000; /* Adjust the color as needed */
+      text-decoration: none; /* Remove the underline */
+      margin-top: 20px; /* Add some space above the link */
     }
   </style>
 </head>
@@ -68,6 +78,7 @@
   <div class="content">
     <img src="Logo-500x500-transp.png" alt="Logo" />
     <span>Universe Becoming</span>
+    <a href="https://www.etsy.com/shop/UniverseBecoming">Shop Jewelry Art</a>
   </div>
 </body>
 </html>
