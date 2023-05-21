@@ -71,6 +71,12 @@
       margin-top: 20px; /* Add some space above the link */
     }
   </style>
+
+  <script>
+    if (window.location.hostname === 'www.universebecoming.com') {
+      window.location.href = 'https://universebecoming.com' + window.location.pathname + window.location.search;
+    }
+  </script>
 </head>
 <body>
   <!-- Video background container -->
@@ -82,7 +88,7 @@
     </video>
   </div>
 
-<!-- Content displayed over the video background -->
+  <!-- Content displayed over the video background -->
   <div class="content">
     <img src="Logo-500x500-transp.png" alt="Logo" />
     <span>Universe Becoming</span>
